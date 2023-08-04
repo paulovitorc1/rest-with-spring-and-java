@@ -16,6 +16,10 @@
 	<description>API Rest with Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
+		<!--<dozer.version>6.5.2</dozer.version>-->
+		<model-mapper.version>3.0.0</model-mapper.version>
+
+
 	</properties>
 	<dependencies>
 		<dependency>
@@ -32,6 +36,18 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.33</version>
+		</dependency>
+
+		<!--<dependency>
+			<groupId>com.github.dozermapper</groupId>
+			<artifactId>dozer-core</artifactId>
+			<version>${dozer.version}</version>
+		</dependency>-->
+
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>${model-mapper.version}</version>
 		</dependency>
 
 		<dependency>
